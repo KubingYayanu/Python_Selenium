@@ -3,8 +3,13 @@
 - 執行順序
 
 ```bash
+$ pip3 install pipenv
+
 $ mkdir project_folder
 $ cd project_folder
+
+# 依照 Pipfile.lock 來還原 Package
+$ pipenv install
 
 # 安裝 selenium
 $ pipenv install selenium
